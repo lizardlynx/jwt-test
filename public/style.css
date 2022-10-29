@@ -1,0 +1,46 @@
+body {
+    background-color: gray;
+}
+
+form {
+    background-color: rgba(255, 0, 0, 0.5);
+    border: none;
+    padding: 50px;
+    width: 300px;
+    margin: 200px auto;
+    border-radius: 30px;
+}
+
+form > input {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: inherit;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+#pic-img {
+    margin: 0px auto;
+    display: block;
+}
+
+.wrong {
+    border: 1px solid red;
+    box-shadow: 1px 1px 1px black;
+}
+
+.hidden {
+    display: none;
+}
+
+form p {
+    color: white;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 14px;
+}
